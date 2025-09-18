@@ -16,6 +16,7 @@ threads = []
 start_time = time.time()
 for url in urls:
     thread = threading.Thread(target=fetch_url, args=(url,))
+    print(f'Starting thread for {url}')
     thread.start()
     threads.append(thread)
 

@@ -16,7 +16,7 @@ class MyThread(threading.Thread):
 
 start_time = time.time()
 thread1 = MyThread(name='A', delay=1)
-thread2 = MyThread(name='B', delay=2)
+thread2 = MyThread(name='B', delay=1)
 
 thread1.start()
 thread2.start()

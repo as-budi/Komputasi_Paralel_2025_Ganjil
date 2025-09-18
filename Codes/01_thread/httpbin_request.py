@@ -9,6 +9,7 @@ urls = [
 
 start_time = time.time()
 for url in urls:
+    print(f'Starting request for {url}')
     response = requests.get(url)
     print(f'Fetched {url} with status code {response.status_code}')
 

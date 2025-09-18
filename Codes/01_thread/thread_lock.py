@@ -19,12 +19,12 @@ def kurangi_saldo(angka):
 
 t1=[]
 t2=[]
-for _ in range(1000):
+for _ in range(10):
     t = threading.Thread(target=tambah_saldo, args=(5,))
     t.start()
     t1.append(t)
 
-for _ in range(1000):
+for _ in range(10):
     t = threading.Thread(target=kurangi_saldo, args=(5,))
     t.start()
     t2.append(t)
