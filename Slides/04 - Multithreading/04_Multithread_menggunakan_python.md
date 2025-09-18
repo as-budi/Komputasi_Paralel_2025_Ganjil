@@ -15,13 +15,13 @@ backgroundImage: url('../bg.png')
 ### Apa itu *Thread*?
 
 * **Thread** adalah unit eksekusi terkecil dalam sebuah program.
-* Satu proses dapat memiliki banyak *thread* yang berjalan secara paralel.
+* Satu proses dapat memiliki banyak *thread* yang berjalan secara konkuren.
 * Thread berbagi **memori** dan **resource** dengan proses induknya.
 
 ---
 ### Kenapa Perlu Multithreading?
 
-* Untuk menyelesaikan tugas yang dapat dilakukan secara **paralel**.
+* Untuk menyelesaikan tugas yang dapat dilakukan secara **konkuren**.
 * Meningkatkan efisiensi pada program yang menunggu **I/O** (misalnya membaca file, akses internet, komunikasi jaringan).
 * Membuat program lebih **responsif** (misalnya aplikasi GUI atau server).
 
